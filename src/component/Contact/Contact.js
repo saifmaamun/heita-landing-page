@@ -15,9 +15,9 @@ const Contact = () => {
             <div className=" d-flex justify-content-center">
                 <Row className="g-5  ">
                     <Col xs={12} md={6}>
-                        <div className="d-flex justify-content-center align-items-center">
+                        <div className="d-flex justify-content-start align-items-center">
                             <div className={styles.box}>
-                                <img  src={call} alt="" srcset="" />
+                                <img src={call} alt="" srcset="" />
                             </div>
                             <div className="mx-3">
                                 <h3 className={styles.box_text}>+27 73 77 65695</h3>
@@ -25,13 +25,14 @@ const Contact = () => {
                         </div>
                     </Col>
                     <Col xs={12} md={6}>
-                        <div className="d-flex justify-content-center align-items-center">
+                        <div className="d-flex justify-content-start align-items-center">
                             <div className={styles.box}>
-                                <img src={mail} alt="" srcset="" />
-                            </div>
-                            <div className="mx-3">
-                                <h3 className={styles.box_text}>support@heita.app</h3>
-                            </div>
+
+                                    <img src={mail} alt="" srcset="" />
+                                </div>
+                                <div className="mx-3">
+                                    <h3 className={styles.box_text}>support@heita.app</h3>
+                                </div>
                         </div>
                     </Col>
                 </Row>
