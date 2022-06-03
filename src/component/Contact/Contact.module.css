@@ -1,0 +1,29 @@
+.heading {
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.underline {
+    margin-top: 13px;
+    height: 7px;
+    width: 280px;
+    background-color: #325DA8;
+    margin: auto;
+    margin-bottom: 31px;
+}
+.sub {
+    font-size: 20px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    height:120px;
+    width: 120px;
+    border-radius:27px;
+    background-color: #325DA8;
+    padding: 32px;
+}
+.box_text{
+    font-size: 33px;
+        font-weight: 700;
+}

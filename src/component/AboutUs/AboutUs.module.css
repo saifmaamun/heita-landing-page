@@ -1,0 +1,35 @@
+.heading{
+    font-size:56px;
+    font-weight:600;
+}
+.underline{
+    margin-top:13px;
+    height:7px;
+    width:280px;
+    background-color:#325DA8;
+    margin: auto;
+}
+.box{
+    height: 390px;
+    width: 1230px;
+    border-radius:27px;
+    background-color:#1C2E3F;
+    margin-bottom:60px;
+    padding:61px 76px;
+}
+.box_tex{
+    font-size: 20px;
+}
+.relative{
+    position:relative;
+}
+.img_box{
+    position: absolute;
+        top: 0;
+        left: 200px;
+        bottom: 0;
+        right: 0;
+}
+.img{
+   
+}
