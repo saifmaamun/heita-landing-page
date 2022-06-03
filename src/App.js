@@ -14,7 +14,7 @@ function App() {
       <Header />
       <Hero />
       <Steps />
-      {/* <AboutUs /> */}
+      <AboutUs />
       {/* <Why /> */}
       {/* <Contact /> */}
       {/* <Footer/> */}
