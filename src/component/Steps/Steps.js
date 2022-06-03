@@ -17,6 +17,7 @@ const Steps = () => {
                     <Col xs={12} sm={6} md={4}>
                         <Card className={`${styles.card}`} >
                             <div className={styles.card_img_box}>
+                                <p></p>
                             <img src={mobile}  alt=""/>
                             </div>
                             <Card.Body className="p-3">
@@ -30,6 +31,7 @@ const Steps = () => {
                     <Col xs={12} sm={6} md={4}>
                         <Card className={`${styles.card}`} >
                             <div className={styles.card_img_box}>
+                                <p></p>
                                 <img src={bell}  alt=""/>
                             </div>
                             <Card.Body className="p-3">
@@ -43,6 +45,7 @@ const Steps = () => {
                     <Col xs={12} sm={6} md={4}>
                         <Card className={`${styles.card}`} >
                             <div className={styles.card_img_box}>
+                                <p></p>
                                 <img  src={door}  alt=""/>
                             </div>
                             <Card.Body className="p-3">

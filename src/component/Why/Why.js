@@ -20,6 +20,7 @@ const Why = () => {
                     <Col xs={12} md={6}>
                         <Card className={styles.card} >
                             <div className={styles.card_img_box}>
+                                <p></p>
                                 <img  src={image1} alt="" />
                             </div>
                             <Card.Body className="p-3">
@@ -33,6 +34,7 @@ const Why = () => {
                     <Col xs={12} md={6}>
                         <Card className={styles.card} >
                             <div className={styles.card_img_box}>
+                                <p></p>
                                 <img  src={image2} alt="" />
                             </div>
                             <Card.Body className="p-3">
@@ -50,6 +52,7 @@ const Why = () => {
                     <Col xs={12} md={6}>
                         <Card className={styles.card} >
                             <div className={styles.card_img_box}>
+                                <p></p>
                                 <img  src={image3} alt="" />
                             </div>
                             <Card.Body className="p-3">
@@ -63,6 +66,7 @@ const Why = () => {
                     <Col xs={12} md={6}>
                         <Card className={styles.card} >
                             <div className={styles.card_img_box}>
+                                <p></p>
                                 <img  src={image4} alt="" />
                             </div>
                             <Card.Body className="p-3">

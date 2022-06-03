@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
-import door from '../../images/3steps/perspective_matte.png'
+import logo from "../../images/logo/Heita Logo - Final.png"
 
 import playStore from '../../images/hero/Google_Play_Store_badge_EN.svg.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -16,8 +16,9 @@ const Footer = () => {
                 <Row className="g-5">
                         <Col xs={12} md={6}>
                             <div className="d-flex align-items-center justify-content-center">
+                                <p></p>
                                     
-                                <img className="me-3 " src={door} alt="" />
+                                <img className="me-3" height="100" src={logo} alt="" />
                                     
                                 <h5 className={styles.footer_text}>Follow Us On</h5>
 

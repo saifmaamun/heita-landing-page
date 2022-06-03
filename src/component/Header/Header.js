@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook,faTwitter,faInstagram } from '@fortawesome/free-brands-svg-icons';
 import React from 'react';
 import styles from './Header.module.css'
+import logo from "../../images/logo/Heita Logo - Final.png"
 
 import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 
@@ -15,12 +16,11 @@ const Header = () => {
                             <Navbar.Brand href="#home">
                                 <img
                                     alt=""
-                                    src="/logo.svg"
-                                    width="30"
-                                    height="30"
+                                    src={logo}
+                                    
+                                    height="100"
                                     className="d-inline-block align-top"
                                 />{' '}
-                                React Bootstrap
                             </Navbar.Brand>
                             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                             <Navbar.Collapse id="responsive-navbar-nav">
