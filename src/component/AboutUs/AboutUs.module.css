@@ -54,7 +54,8 @@
       width: 360px;
     border-radius: 27px;
     background-color: #1c2e3f;
-    margin-bottom: 60px;
+    margin: auto;
+    /* margin-bottom: 60px; */
     padding: 30px 38px;
   }
   .box_text {

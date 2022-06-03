@@ -67,6 +67,7 @@
   height: 450px;
   border-radius: 27px;
   background-color: #1c2e3f;
+  margin: auto;
 }
 .card_head {
   font-size: 30px;
