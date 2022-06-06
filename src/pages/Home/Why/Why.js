@@ -1,11 +1,10 @@
 import React from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
 import styles from "./Why.module.css"
-import door from '../../images/3steps/perspective_matte.png'
-import image1 from '../../images/why/Group 1.png'
-import image2 from '../../images/why/Group 2.png'
-import image3 from '../../images/why/Group 3.png'
-import image4 from '../../images/why/Group 4.png'
+import image1 from '../../../images/why/Group 1.png'
+import image2 from '../../../images/why/Group 2.png'
+import image3 from '../../../images/why/Group 3.png'
+import image4 from '../../../images/why/Group 4.png'
 
 const Why = () => {
     return (

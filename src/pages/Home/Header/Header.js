@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook,faTwitter,faInstagram } from '@fortawesome/free-brands-svg-icons';
 import React from 'react';
 import styles from './Header.module.css'
-import logo from "../../images/logo/Heita Logo - Final.png"
+import logo from "../../../images/logo/Heita Logo - Final.png"
 
 import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 
@@ -13,7 +13,7 @@ const Header = () => {
                 <>
                     <Navbar collapseOnSelect expand="sm" variant="dark">
                         <Container>
-                            <Navbar.Brand href="#home">
+                            <Navbar.Brand href="/home">
                                 <img
                                     alt=""
                                     src={logo}
@@ -26,7 +26,7 @@ const Header = () => {
                             <Navbar.Collapse id="responsive-navbar-nav">
 
                                 <Nav className="ms-auto d-flex align-items-center justify-content-around">
-                                    <Nav.Link className={styles.navbar} href="#home">Home</Nav.Link>
+                                    <Nav.Link className={styles.navbar} href="/home">Home</Nav.Link>
                                     <Nav.Link className={styles.navbar} href="#features">About Us</Nav.Link>
                                     <Nav.Link className={styles.navbar} href="#pricing">Contact Us</Nav.Link>
                                     <Button className={styles.button} href="#pricing">Book A Demo</Button>

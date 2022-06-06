@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
-import playStore from '../../images/hero/Google_Play_Store_badge_EN.svg.png'
-import banner from '../../images/hero/Website Banner.png'
+import playStore from '../../../images/hero/Google_Play_Store_badge_EN.svg.png'
+import banner from '../../../images/hero/Website Banner.png'
 import styles from './Hero.module.css'
 
 

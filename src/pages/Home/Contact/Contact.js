@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import call from '../../images/about/7830799_phone_actions_ring_icon.svg'
-import mail from '../../images/about/icons.svg'
+import call from '../../../images/about/7830799_phone_actions_ring_icon.svg'
+import mail from '../../../images/about/icons.svg'
 import styles from "./Contact.module.css"
 
 const Contact = () => {

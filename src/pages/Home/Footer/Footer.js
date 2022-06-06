@@ -1,24 +1,27 @@
 import React from 'react';
-import { Button, Col, Container, Row } from 'react-bootstrap';
-import logo from "../../images/logo/Heita Logo - Final.png"
+import { Button, Col, Container, Nav,  Row } from 'react-bootstrap';
+import logo from "../../../images/logo/Heita Logo - Final.png"
 
-import playStore from '../../images/hero/Google_Play_Store_badge_EN.svg.png'
+import playStore from '../../../images/hero/Google_Play_Store_badge_EN.svg.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import styles from "./Footer.module.css"
+import { NavLink} from 'react-router-dom';
+
 
 const Footer = () => {
+    
     return (
-        <div fluid className="bg-light">
+        <div  className="bg-light">
 
-            <div fluid className={styles.footer_container} >
+            <div  className={styles.footer_container} >
             <Container>
                 <Row className="g-5">
                         <Col xs={12} md={6}>
                             <div className="d-flex align-items-center justify-content-center">
                                 <p></p>
-                                    
-                                <img className="me-3" height="100" src={logo} alt="" />
+                                <NavLink className={styles.copy} to="/home"><img className="me-3" height="100" src={logo} alt="" /></NavLink>
+                                
                                     
                                 <h5 className={styles.footer_text}>Follow Us On</h5>
 
@@ -40,7 +43,8 @@ const Footer = () => {
                     </Row>
             </Container>
             </div>
-            <Container>
+            <Container className={styles.terms}>
+                
 
                 <Row className="text-black mt-2 pt-2 d-flex align-items-center justify-content-center">
                 <Col xs={12} md={4}>
@@ -50,10 +54,13 @@ const Footer = () => {
                     
                 </Col>
                 <Col xs={12} md={4}>
-                    <div className="d-flex align-items-center">
-
-                            <h5 className={styles.copy}>Terms & Conditions</h5>
-                            <h5 className={styles.copy}>Privacy Policy</h5>
+                        <div className="d-flex align-items-center">
+                            
+                            <NavLink className={styles.copy} to="/terms">Terms & Conditions</NavLink>
+                            <NavLink className={styles.copy} to="/policy">Privacy Policy</NavLink>
+                           
+                            
+                            
                     </div>
                 </Col>
             </Row>

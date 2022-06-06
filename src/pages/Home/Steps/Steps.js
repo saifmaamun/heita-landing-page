@@ -1,8 +1,8 @@
 import React from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
-import mobile from '../../images/3steps/Phone_perspective_matte.png'
-import bell from '../../images/3steps/Bell_perspective_matte_s.png'
-import door from '../../images/3steps/perspective_matte.png'
+import mobile from '../../../images/3steps/Phone_perspective_matte.png'
+import bell from '../../../images/3steps/Bell_perspective_matte_s.png'
+import door from '../../../images/3steps/perspective_matte.png'
 import styles from './Steps.module.css'
 
 const Steps = () => {

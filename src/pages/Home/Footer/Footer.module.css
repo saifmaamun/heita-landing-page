@@ -24,7 +24,9 @@
     font-weight: 600;
     color:#325DA8;
     margin-left: 24px;
+    text-decoration: none;
 }
+
 
 /* tablet */
 @media screen and (max-width: 767px) {
@@ -58,6 +60,8 @@
     font-weight: 600;
     color:#325DA8;
     margin-left: 24px;
+    text-decoration: none;
 }
+
 
 }

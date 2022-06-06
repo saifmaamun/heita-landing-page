@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
 import styles from "./AboutUs.module.css";
-import mobile from "../../images/about/Mobile-App-Mockup.png";
+import mobile from "../../../images/about/Mobile-App-Mockup.png";
 
 const AboutUs = () => {
     return (
