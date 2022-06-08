@@ -70,7 +70,7 @@
   .underline {
     margin-top: 13px;
     height: 7px;
-    width: 280px;
+    width: 200px;
     background-color: #325DA8;
     margin: auto;
     margin-bottom: 31px;
@@ -79,7 +79,7 @@
     font-size: 10px;
 }
 .card {
-    width: 360px;
+    width: 250px;
     height: 450px;
     border-radius: 27px;
     background-color: #1C2E3F;

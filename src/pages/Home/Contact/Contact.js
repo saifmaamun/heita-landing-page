@@ -13,7 +13,7 @@ const Contact = () => {
                 <h5 className={styles.sub}>Have any queries, or doubts? We are happy to help anytime!</h5>
             </div>
             <div className=" d-flex justify-content-center">
-                <Row className="g-5  ">
+                <Row className="gy-5  ">
                     <Col xs={12} md={6}>
                         <div className="d-flex justify-content-start align-items-center">
                             <div className={styles.box}>

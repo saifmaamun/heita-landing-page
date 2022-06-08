@@ -16,7 +16,7 @@ const Footer = () => {
 
             <div  className={styles.footer_container} >
             <Container>
-                <Row className="g-5">
+                <Row className="gy-5">
                         <Col xs={12} md={6}>
                             <div className="d-flex align-items-center justify-content-center">
                                 <p></p>
@@ -45,7 +45,11 @@ const Footer = () => {
                                 <Button variant="light" className={styles.button_text }>Book A Demo</Button>
                                 <div className="ms-5">
                                     <h5 className={styles.app_text}>Get The App Now</h5>
-                                    <img className="w-100" src={playStore} alt="" />
+                                    <a href="https://play.google.com/store/apps/details?id=com.app.heita" target="_blank" rel="noopener noreferrer">
+                                        <p></p>
+
+                                        <img className="w-100 app" src={playStore} alt="" />
+                                    </a>
                                 </div>
                             </div>
                     </Col>

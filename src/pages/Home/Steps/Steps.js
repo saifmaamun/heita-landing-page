@@ -13,8 +13,8 @@ const Steps = () => {
                     <h1 className={styles.heading}>EASY TO START IN 3 STEPS</h1>
                     <div className={styles.underline}></div>
                 </div>
-                <Row className="g-1 my-5">
-                    <Col xs={12} sm={6} md={4}>
+                <Row className="g-3 my-5 ">
+                    <Col  xs={12} sm={6} md={4}>
                         <Card className={`${styles.card}`} >
                             <div className={styles.card_img_box}>
                                 <p></p>

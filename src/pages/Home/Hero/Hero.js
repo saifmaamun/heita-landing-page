@@ -19,8 +19,11 @@ const Hero = () => {
                         <Button className={`${styles.button}`}>Book A Demo</Button>
                         <div className="me-auto mt-3">
                         <div className="d-flex justify-content-start align-items-center">
-                            <h5 className={styles.getapp}>Get The App Now</h5>
-                            <img className="w-50 app" src={playStore} alt="" />
+                                <h5 className={styles.getapp}>Get The App Now</h5>
+                                <a href="https://play.google.com/store/apps/details?id=com.app.heita" target="_blank" rel="noopener noreferrer">
+
+                            <img className="w-100 app" src={playStore} alt="" />
+                                </a>
                         </div>
                         </div>
                     </div>

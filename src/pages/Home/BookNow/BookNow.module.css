@@ -17,6 +17,13 @@ border-radius: 5px;
 background-color: #325DA8;
 border:none;
 }
+.fsize{
+  padding:15px 10px ;
+  margin: 0 auto;
+}
+.csize{
+ margin: 0 100px;
+}
 
 /* tablet */
 @media screen and (max-width: 767px) {
@@ -32,8 +39,14 @@ border:none;
   .underline {
     margin-top: 13px;
     height: 7px;
-    width: 339px;
+    width: 200px;
     background-color: #325da8;
     margin: auto;
   }
+  .fsize{
+  padding:15px 10px ;
+}
+  .csize{
+ margin: 0 auto;
+}
 }

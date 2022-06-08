@@ -58,13 +58,13 @@
   .underline {
     margin-top: 13px;
     height: 7px;
-    width: 339px;
+    width: 250px;
     background-color: #325da8;
     margin: auto;
   }
 .card {
-  width: 360px;
-  height: 450px;
+  width: 250px;
+  height: 550px;
   border-radius: 27px;
   background-color: #1c2e3f;
   margin: auto;

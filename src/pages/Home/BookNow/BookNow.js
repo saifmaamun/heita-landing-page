@@ -10,30 +10,29 @@ const BookNow = () => {
             <div className={styles.underline}></div>
 
             </div>
-            <Form>
-                <Row className="g-5">
-                    <Col xs={12} sm={12} md={6}>
+
+            <Form className={styles.csize}>
+                <Row className="g-5 mx-3 px-3">
+
+                    <Col   xs={12} sm={12} md={6}>
                         
                 <Form.Group className="mb-3" controlId="formBasicName">
-                    <Form.Control className="p-3" type="text" placeholder="Name" />
+                    <Form.Control className={styles.fsize} type="text" placeholder="Name" />
                 </Form.Group>
                     </Col>
                     <Col xs={12} sm={12} md={6}>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
-                            <Form.Control type="email" className="p-3" placeholder="Email" />
+                            <Form.Control type="email" className={styles.fsize} placeholder="Email" />
                 </Form.Group>
                     </Col>
                     <Col md={12}>
                         
                         <Form.Group className="mb-3" controlId="formBasicCompanyName">
-                            <Form.Control type="text" className="p-3" placeholder="Company Name" />
+                            <Form.Control type="text" className={styles.fsize}placeholder="Company Name" />
                 </Form.Group>
                     </Col>
                 <Form.Group className="mb-3" controlId="formBasicMessage">
-                        <Form.Control type="textarea" className="p-3" placeholder="Message" />
-                    </Form.Group>
-                <Form.Group className="mb-3" controlId="formBasicFile">
-                        <Form.Control type="file" className="p-3" placeholder="Attachment" />
+                        <Form.Control type="textarea" className={styles.fsize} placeholder="Message" />
                     </Form.Group>
 
                 </Row>
