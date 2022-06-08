@@ -6,7 +6,7 @@ import styles from "./Contact.module.css"
 
 const Contact = () => {
     return (
-        <Container className="mb-5 pb-5">
+        <Container id="contact" className="mb-5 pb-5">
             <div className="text-center mb-5">
                 <h1 className={styles.heading}>CONTACT US</h1>
                 <div className={styles.underline}></div>

@@ -5,7 +5,7 @@ import mobile from "../../../images/about/Mobile-App-Mockup.png";
 
 const AboutUs = () => {
     return (
-        <Container className=" ">
+        <Container id="aboutus" className=" ">
             <div className="text-center mb-5">
                 <h1 className={styles.heading}>ABOUT US</h1>
                 <div className={styles.underline}></div>

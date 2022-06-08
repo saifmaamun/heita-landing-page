@@ -25,9 +25,18 @@ const Footer = () => {
                                     
                                 <h5 className={styles.footer_text}>Follow Us On</h5>
 
-                                    <FontAwesomeIcon className="text-center ms-3 fs-2" icon={faFacebook} />
-                                <FontAwesomeIcon className="text-light ms-3 fs-2" icon={faTwitter} />
-                                <FontAwesomeIcon className="text-light ms-3 fs-2" icon={faInstagram} />
+                                <a href="https://www.facebook.com/heitaapp" target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon className="text-light mx-2 fs-3" icon={faFacebook} />
+
+                                </a>
+                                <a href="https://twitter.com/hetiaapp" target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon className="text-light mx-2 fs-3" icon={faTwitter} />
+
+                                </a>
+                                <a href="https://www.instagram.com/heitaapp/" target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon className="text-light mx-2 fs-3" icon={faInstagram} />
+
+                                </a>
                             </div>
                     </Col>
                         <Col xs={12} md={6}>

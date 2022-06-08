@@ -1,5 +1,6 @@
 import React from 'react';
 import AboutUs from '../AboutUs/AboutUs';
+import BookNow from '../BookNow/BookNow';
 import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
@@ -16,6 +17,7 @@ const Home = () => {
             <AboutUs />
             <Why />
             <Contact />
+            <BookNow/>
         </div>
     );
 };

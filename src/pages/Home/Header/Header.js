@@ -27,13 +27,21 @@ const Header = () => {
 
                                 <Nav className="ms-auto d-flex align-items-center justify-content-around">
                                     <Nav.Link className={styles.navbar} href="/home">Home</Nav.Link>
-                                    <Nav.Link className={styles.navbar} href="#features">About Us</Nav.Link>
-                                    <Nav.Link className={styles.navbar} href="#pricing">Contact Us</Nav.Link>
-                                    <Button className={styles.button} href="#pricing">Book A Demo</Button>
-                                    <FontAwesomeIcon icon="fa-brands fa-facebook-f" />
+                                    <Nav.Link className={styles.navbar} href="#aboutus">About Us</Nav.Link>
+                                    <Nav.Link className={styles.navbar} href="#contact">Contact Us</Nav.Link>
+                                    <Button className={styles.button} href="#book">Book A Demo</Button>
+                                    <a href="https://www.facebook.com/heitaapp" target="_blank" rel="noopener noreferrer">
                                     <FontAwesomeIcon className="text-light mx-2 fs-3" icon={faFacebook} />
+                                        
+                                    </a>
+                                    <a href="https://twitter.com/hetiaapp" target="_blank" rel="noopener noreferrer">
                                     <FontAwesomeIcon className="text-light mx-2 fs-3" icon={faTwitter} />
+
+                                    </a>
+                                    <a href="https://www.instagram.com/heitaapp/" target="_blank" rel="noopener noreferrer">
                                     <FontAwesomeIcon className="text-light mx-2 fs-3" icon={faInstagram} />
+
+                                    </a>
                                 </Nav>
 
                             </Navbar.Collapse>

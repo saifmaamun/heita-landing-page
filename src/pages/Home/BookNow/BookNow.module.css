@@ -1,0 +1,39 @@
+.heading {
+  font-size: 56px;
+  font-weight: 600;
+}
+.underline {
+  margin-top: 13px;
+  height: 7px;
+  width:  900px;
+  background-color: #325da8;
+  margin: auto;
+}
+.button{
+font-size: 19px;
+font-weight:600;
+padding:12px 48px;
+border-radius: 5px;
+background-color: #325DA8;
+border:none;
+}
+
+/* tablet */
+@media screen and (max-width: 767px) {
+}
+
+/* mobile */
+@media screen and (max-width: 479px) {
+  .heading {
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  .underline {
+    margin-top: 13px;
+    height: 7px;
+    width: 339px;
+    background-color: #325da8;
+    margin: auto;
+  }
+}
